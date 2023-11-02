@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .fname,.lname,.course
+       {
+        font-size: large;
+        color:rgb(41, 77, 6);
+       }
+        form
+        {
+            width: 80vw;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin:auto;
+            background-color: antiquewhite;
+        }
+     select
+        {
+            padding:3px;
+            font-style: italic;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .submit
+        {
+            color:white;
+            padding:10px;
+            border-radius: 10px;
+            background-color:rgb(41, 77, 6);
+        }
+    </style>
+</head>
+<body>
+    <h1>Fill the form</h1>
+   <form action="">
+     <label for="fname" class="fname"> Name:</label>
+    <input type="text"></input><br>
+    <label for="lname" class="lname">Registration number:</label>
+    <input type="text"></input><br>
+    <label for="course" class="course">Choose your course:</label>
+    <select id="cars" name="cars">
+      <option value="BTECH">BTECH.</option>
+      <option value="MTECH">MTECH.</option>
+      <option value="BCA">BCA.</option>
+      <option value="MCA">MCA.</option>
+    </select><br>
+    <input class="submit"type="submit">
+   </form> 
+</body>
+</html>
